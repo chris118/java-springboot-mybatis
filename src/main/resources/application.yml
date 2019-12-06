@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.hhit.i1.bean
+  config-location: classpath:mybatis-config.xml
